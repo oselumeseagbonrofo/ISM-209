@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href=" /static/images/favicon.ico"  rel="shortcut icon" >
+    <link href="/static/css/layout.css" rel="stylesheet" type="text/css">
+    <title>Oselumese's homepage</title>
+</head>
+<body>
+<header>
+    <div class="navigation-bar white-text">
+        <a href ="/" ><img alt="home icon" src="/static/images/favicon.ico"></a>
+        <ul class="navigation-links">
+            <a href="/"> <li class="nav-items">Home</li></a>
+            <a href="/hobbies"><li class="nav-items">Hobbies</li></a>
+            <a href="/projects"><li class="nav-items">Projects</li></a>
+            <a href="/contact"><li class="nav-items">Contact me</li></a>
+        </ul>
+    </div>
+</header>
+<main class="centered-text white-text">
+    {% block main %}{% endblock %}
+</main>
+<footer>
+    <div class="footer-bar white-text centered-text">
+        <ul class="navigation-links">
+            <a href="/"> <li class="nav-items">Home</li></a>
+            <a href="/hobbies"><li class="nav-items">Hobbies</li></a>
+            <a href="/projects"><li class="nav-items">Projects</li></a>
+            <a href="/contact"><li class="nav-items">Contact me</li></a>
+        </ul>
+        <hr>
+        <p>&copy Agbonrofo Oselumese 2023</p>
+    </div>
+</footer>
+</body>
+</html>
